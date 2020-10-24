@@ -14,7 +14,7 @@ class EasyHTTP {
    return resData;
   }
 
-  // Make an HTTP POST request
+// Make an HTTP POST request
  async post(url, data){
      const response = await fetch(url, {
        method: 'POST',
